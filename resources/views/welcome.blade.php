@@ -12,11 +12,18 @@
             'node_modules/bootstrap/dist/css/bootstrap.min.css',
             'node_modules/bootstrap/dist/js/bootstrap.bundle.js'    
         ])
+
+        <style>
+            body {
+                background: url('/sneakers.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        </style>
     </head>
     <body>
-        <div class="container py-4 px-3 mx-auto">
-            <h1>Hello, Bootstrap and Vite!</h1>
-            <button class="btn btn-primary">Primary button</button>
+        <div class="container py-4 px-3 mx-auto bg-black rounded">
+            <h1 class="text-primary">Hello, Bootstrap and Vite!</h1>
         </div>
     </body>
 </html>
